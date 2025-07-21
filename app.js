@@ -7,7 +7,7 @@ taskForm.addEventListener("submit", function (e) {
   const task = taskInput.value.trim();
   if (task !== "") {
     addTaskToList(task);
-    alert("hello from your task");  // ✅ الرسالة هنا
+    alert("hello from your task");  /// ✅ الرسالة هنا
     taskInput.value = "";
   }
 });
